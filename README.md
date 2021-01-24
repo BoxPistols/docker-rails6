@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+---
+
+ActiveRecord:: NoDatabaseErrorUnknow
+ ->
+ [Exsample](https://eri2490.hatenablog.com/entry/2020/02/17/235604)
+
+``` 
+$ docker-compose run --rm web rake db:create
+$ docker-compose run web bin/rails db:migrate RAILS_ENV=development
+```
